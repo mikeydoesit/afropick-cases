@@ -413,11 +413,10 @@ header a:hover {
 #footer {
   height: 45vh;
   text-align: center;
-  background: -webkit-linear-gradient(270deg, white 0%, #a36f44 100%); /* safari5.1+,chrome10+ */
-  background: -o-linear-gradient(270deg, white 0%, #a36f44 100%); /* opera 11.10+ */
-  background: -ms-linear-gradient(270deg, white 0%, #a36f44 100%); /* ie10+ */
-  background: linear-gradient(180deg, white 0%, #a36f44 100%); /* w3c */
+  background-color: #a36f44;
 }
   #footer p {
   padding-top: 38vh;
+  color: white;
+  font-size: 0.8rem;
 }
