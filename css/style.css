@@ -1,0 +1,305 @@
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+header {
+  border-bottom: solid 1px lightgrey;
+}
+
+header h1 {
+  text-align: center;
+  margin: 20px 0 20px 0;
+}
+
+header nav {
+  float: right;
+  margin-top: 30px;
+  margin-right: 50px;
+  margin-bottom: 20px;
+}
+
+header a {
+  padding-right: 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  font-size: .9rem;
+  font-weight: 600;
+  transition: all 0.4s ease-in-out;
+}
+
+header a:hover {
+  color: lightblue;
+}
+
+.products .mocha {
+  height: 280px;
+  overflow: hidden;
+}
+
+.products .mocha .mochaimg {
+  width: 100%;
+  height: 100%;
+  background-image: url("mochaimg.png");
+  background-position: center;
+  background-size: cover;
+  transition: all 0.4s ease-in-out;
+}
+
+.products .mocha:hover .mochaimg,
+.products .mocha:focus .mochaimg {
+  transform: scale(1.1);
+
+}
+
+.mochaimg::before {
+  content: "";
+  display: none;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(107, 71, 50, 0.75);
+}
+
+.products .mocha:hover .mochaimg:before,
+.products .mocha:focus .mochaimg:before {
+  display: block;
+}
+.products .mocha .mochaimg span {
+  color: white; /* Good thing we set a fallback color! */
+  font-size: 1rem;
+  display: none;
+  text-align: center;
+  margin: auto;
+  position: absolute;
+  top: 150px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.products .mocha:hover span,
+.products .mocha:focus span {
+  display: block;
+
+}
+/* CSS for Cocoa cell*/
+
+.products .cocoa {
+  height: 280px;
+  overflow: hidden;
+}
+
+.products .cocoa .cocoaimg {
+  width: 100%;
+  height: 100%;
+  background-image: url("cocoaimg.png");
+  background-position: center;
+  background-size: cover;
+  transition: all 0.4s ease-in-out;
+}
+
+.products .cocoa:hover .cocoaimg,
+.products .cocoa:focus .cocoaimg {
+  transform: scale(1.1);
+
+}
+
+.cocoaimg::before {
+  content: "";
+  display: none;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(98, 68, 47, 0.75);
+}
+
+.products .cocoa:hover .cocoaimg:before,
+.products .cocoa:focus .cocoaimg:before {
+  display: block;
+}
+.products .cocoa .cocoaimg span {
+  color: white; /* Good thing we set a fallback color! */
+  font-size: 1rem;
+  display: none;
+  text-align: center;
+  margin: auto;
+  position: absolute;
+  top: 150px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.products .cocoa:hover span,
+.products .cocoa:focus span {
+  display: block;
+}
+ /* CSS for Lightie cell */
+
+ .products .lightie {
+   height: 280px;
+   overflow: hidden;
+ }
+
+ .products .lightie .lightieimg {
+   width: 100%;
+   height: 100%;
+   background-image: url("lightieimg.png");
+   background-position: center;
+   background-size: cover;
+   transition: all 0.4s ease-in-out;
+ }
+
+ .products .lightie:hover .lightieimg,
+ .products .lightie:focus .lightieimg {
+   transform: scale(1.1);
+
+ }
+
+ .lightieimg::before {
+   content: "";
+   display: none;
+   height: 100%;
+   width: 100%;
+   position: absolute;
+   top: 0;
+   left: 0;
+   background-color: rgba(204, 168, 122, 0.75);
+ }
+
+ .products .lightie:hover .lightieimg:before,
+ .products .lightie:focus .lightieimg:before {
+   display: block;
+ }
+ .products .lightie .lightieimg span {
+   color: white; /* Good thing we set a fallback color! */
+   font-size: 1rem;
+   display: none;
+   text-align: center;
+   margin: auto;
+   position: absolute;
+   top: 150px;
+   left: 0;
+   bottom: 0;
+   right: 0;
+ }
+
+ .products .lightie:hover span,
+ .products .lightie:focus span {
+   display: block;
+ }
+
+ /* CSS for Dark cell */
+
+ .products .dark {
+   height: 280px;
+   overflow: hidden;
+ }
+
+ .products .dark .darkimg {
+   width: 100%;
+   height: 100%;
+   background-image: url("darkimg.png");
+   background-position: center;
+   background-size: cover;
+   transition: all 0.4s ease-in-out;
+ }
+
+ .products .dark:hover .darkimg,
+ .products .dark:focus .darkimg {
+   transform: scale(1.1);
+
+ }
+
+ .darkimg::before {
+   content: "";
+   display: none;
+   height: 100%;
+   width: 100%;
+   position: absolute;
+   top: 0;
+   left: 0;
+   background-color: rgba(63, 45, 38, 0.75);
+ }
+
+ .products .dark:hover .darkimg:before,
+ .products .dark:focus .darkimg:before {
+   display: block;
+ }
+ .products .dark .darkimg span {
+   color: white; /* Good thing we set a fallback color! */
+   font-size: 1rem;
+   display: none;
+   text-align: center;
+   margin: auto;
+   position: absolute;
+   top: 150px;
+   left: 0;
+   bottom: 0;
+   right: 0;
+ }
+
+ .products .dark:hover span,
+ .products .dark:focus span {
+   display: block;
+ }
+
+ /* CSS for caramel cell */
+
+ .products .caramel {
+   height: 280px;
+   overflow: hidden;
+ }
+
+ .products .caramel .caramelimg {
+   width: 100%;
+   height: 100%;
+   background-image: url("caramelimg.png");
+   background-position: center;
+   background-size: cover;
+   transition: all 0.4s ease-in-out;
+ }
+
+ .products .caramel:hover .caramelimg,
+ .products .caramel:focus .caramelimg {
+   transform: scale(1.1);
+
+ }
+
+ .caramelimg::before {
+   content: "";
+   display: none;
+   height: 100%;
+   width: 100%;
+   position: absolute;
+   top: 0;
+   left: 0;
+   background-color: rgba(163, 111, 68, 0.75);
+ }
+
+ .products .caramel:hover .caramelimg:before,
+ .products .caramel:focus .caramelimg:before {
+   display: block;
+ }
+ .products .caramel .caramelimg span {
+   color: white; /* Good thing we set a fallback color! */
+   font-size: 1rem;
+   display: none;
+   text-align: center;
+   margin: auto;
+   position: absolute;
+   top: 150px;
+   left: 0;
+   bottom: 0;
+   right: 0;
+ }
+
+ .products .caramel:hover span,
+ .products .caramel:focus span {
+   display: block;
+ }
