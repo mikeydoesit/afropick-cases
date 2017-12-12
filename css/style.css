@@ -76,6 +76,7 @@ header a:hover {
   background-position: center;
   background-size: cover;
   transition: all 0.4s ease-in-out;
+  cursor: pointer;
 }
 
 .products .mocha:hover .mochaimg,
@@ -131,6 +132,7 @@ header a:hover {
   background-image: url("cocoaimg.png");
   background-position: center;
   background-size: cover;
+  cursor: pointer;
   transition: all 0.4s ease-in-out;
 }
 
@@ -186,6 +188,7 @@ header a:hover {
    background-image: url("lightieimg.png");
    background-position: center;
    background-size: cover;
+   cursor: pointer;
    transition: all 0.4s ease-in-out;
  }
 
@@ -242,6 +245,7 @@ header a:hover {
    background-image: url("darkimg.png");
    background-position: center;
    background-size: cover;
+   cursor: pointer;
    transition: all 0.4s ease-in-out;
  }
 
@@ -298,6 +302,7 @@ header a:hover {
    background-image: url("caramelimg.png");
    background-position: center;
    background-size: cover;
+   cursor: pointer;
    transition: all 0.4s ease-in-out;
  }
 
@@ -340,3 +345,79 @@ header a:hover {
  .products .caramel:focus span {
    display: block;
  }
+
+ #contact {
+   height: 100vh;
+ }
+ #contact .get {
+   text-align: center;
+ }
+ #contact h1 {
+   margin: 0;
+   padding-top: 7vh;
+   padding-bottom: 3vh;
+   text-align: center;
+   font-size: 3rem;
+   font-weight: 700;
+ }
+
+ #contact hr{
+  text-align: center;
+  width: 10vw;
+	border-top: 3px solid #8c8b8b;
+	border-bottom: 3px solid #fff;
+}
+#contact .getintouch {
+  padding: 1.5vw 29vw;
+  font-size: .9rem;
+}
+
+#contact .block {
+  margin: 1vh 10vw;
+}
+
+#contact .block .details {
+  padding: 10px;
+  border-radius: 3px;
+  width: 30vw;
+  margin: 2vh 0;
+}
+#contact .block #message {
+  padding: 10px;
+  height: 20vh;
+  width: 30vw;
+  border-radius: 3px;
+  margin: 2vh 0;
+}
+#contact .block #submit {
+  padding: 7px 10px;
+  width: 7vw;
+  border-radius: 3px;
+  margin: 1vh 0 0 0;
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: #a36f44;
+  color: white;
+}
+
+#contact .block p {
+  padding-bottom: 10vh;
+}
+#contact .block #contacth41 {
+  font-weight: 400;
+}
+#contact .block #contactp1 {
+  font-size: .9rem;
+}
+
+#footer {
+  height: 45vh;
+  text-align: center;
+  background: -webkit-linear-gradient(270deg, white 0%, #a36f44 100%); /* safari5.1+,chrome10+ */
+  background: -o-linear-gradient(270deg, white 0%, #a36f44 100%); /* opera 11.10+ */
+  background: -ms-linear-gradient(270deg, white 0%, #a36f44 100%); /* ie10+ */
+  background: linear-gradient(180deg, white 0%, #a36f44 100%); /* w3c */
+}
+  #footer p {
+  padding-top: 38vh;
+}
