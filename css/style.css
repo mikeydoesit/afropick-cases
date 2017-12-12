@@ -4,6 +4,7 @@ body {
 }
 header {
   border-bottom: solid 1px lightgrey;
+  height: 12vh;
 }
 
 header h1 {
@@ -33,7 +34,7 @@ header a:hover {
 }
 
 .products .mocha {
-  height: 280px;
+  height: 44vh;
   overflow: hidden;
 }
 
@@ -88,7 +89,7 @@ header a:hover {
 /* CSS for Cocoa cell*/
 
 .products .cocoa {
-  height: 280px;
+  height: 44vh;
   overflow: hidden;
 }
 
@@ -142,7 +143,7 @@ header a:hover {
  /* CSS for Lightie cell */
 
  .products .lightie {
-   height: 280px;
+   height: 44vh;
    overflow: hidden;
  }
 
@@ -197,7 +198,7 @@ header a:hover {
  /* CSS for Dark cell */
 
  .products .dark {
-   height: 280px;
+   height: 44vh;
    overflow: hidden;
  }
 
@@ -252,7 +253,7 @@ header a:hover {
  /* CSS for caramel cell */
 
  .products .caramel {
-   height: 280px;
+   height: 44vh;
    overflow: hidden;
  }
 
