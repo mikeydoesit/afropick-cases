@@ -20,7 +20,8 @@ header nav {
 }
 
 header a {
-  padding-right: 25px;
+  margin-right: 30px;
+  padding: 3px 5px;
   text-decoration: none;
   text-transform: uppercase;
   color: black;
@@ -30,9 +31,39 @@ header a {
 }
 
 header a:hover {
-  color: lightblue;
+  color: white;
+  border-radius: 3px;
+  background-color: #a36f44;
 }
 
+.products .empty {
+  height: 44vh;
+}
+
+.products .empty .emptycell {
+  height: 100%;
+  text-align: center;
+
+  background: -moz-radial-gradient(center, ellipse cover, #62442f 0%, #a36f44  50%, #cca87a 100%); /* FF3.6-15 */
+  background: -webkit-radial-gradient(center, ellipse cover, #62442f 0%,#a36f44  50%,#cca87a 100%); /* Chrome10-25,Safari5.1-6 */
+  background: radial-gradient(ellipse at center, #62442f 0%,#a36f44  50%,#cca87a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+.products .empty .emptycell h2{
+  padding-top: 15vh;
+  margin-top: 0;
+  font-size: 1.9rem;
+  color: #cca87a;
+}
+.products .empty .emptycell i{
+  font-size: 2.2rem;
+  color: #cca87a;
+  padding: 0 1vw;
+  transition: all 0.4s ease-in-out;
+}
+.products .empty .emptycell i:hover{
+  color: #3f2d26;
+  cursor: pointer;
+}
 .products .mocha {
   height: 44vh;
   overflow: hidden;
@@ -75,7 +106,8 @@ header a:hover {
   text-align: center;
   margin: auto;
   position: absolute;
-  top: 150px;
+  font-weight: 600;
+  top: 22vh;
   left: 0;
   bottom: 0;
   right: 0;
@@ -130,7 +162,8 @@ header a:hover {
   text-align: center;
   margin: auto;
   position: absolute;
-  top: 150px;
+  font-weight: 600;
+  top: 22vh;
   left: 0;
   bottom: 0;
   right: 0;
@@ -184,7 +217,8 @@ header a:hover {
    text-align: center;
    margin: auto;
    position: absolute;
-   top: 150px;
+   font-weight: 600;
+   top: 22vh;
    left: 0;
    bottom: 0;
    right: 0;
@@ -239,7 +273,8 @@ header a:hover {
    text-align: center;
    margin: auto;
    position: absolute;
-   top: 150px;
+   font-weight: 600;
+   top: 22vh;
    left: 0;
    bottom: 0;
    right: 0;
@@ -294,7 +329,8 @@ header a:hover {
    text-align: center;
    margin: auto;
    position: absolute;
-   top: 150px;
+   font-weight: 600;
+   top: 22vh;
    left: 0;
    bottom: 0;
    right: 0;
