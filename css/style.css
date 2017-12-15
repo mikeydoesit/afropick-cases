@@ -1,6 +1,7 @@
 body {
   margin: 0;
   font-family: 'Open Sans', sans-serif;
+  color: #2D2D2D;
 }
 header {
   border-bottom: solid 1px lightgrey;
@@ -8,6 +9,7 @@ header {
 }
 
 header h1 {
+  color: #2D2D2D;
   text-align: center;
   margin: 20px 0 20px 0;
 }
@@ -24,16 +26,14 @@ header a {
   padding: 3px 5px;
   text-decoration: none;
   text-transform: uppercase;
-  color: black;
+  color: #2D2D2D;
   font-size: .9rem;
   font-weight: 600;
   transition: all 0.4s ease-in-out;
 }
 
 header a:hover {
-  color: white;
-  border-radius: 3px;
-  background-color: #a36f44;
+  color: #aa88e0;
 }
 
 .products .empty {
@@ -93,7 +93,7 @@ header a:hover {
   position: absolute;
   top: 0;
   left: 0;
-  background-color: rgba(107, 71, 50, 0.75);
+  background-color: rgba(255, 255, 255, 0.75);
 }
 
 .products .mocha:hover .mochaimg:before,
@@ -150,7 +150,7 @@ header a:hover {
   position: absolute;
   top: 0;
   left: 0;
-  background-color: rgba(98, 68, 47, 0.75);
+  background-color: rgba(255, 255, 255, 0.75);
 }
 
 .products .cocoa:hover .cocoaimg:before,
@@ -206,7 +206,7 @@ header a:hover {
    position: absolute;
    top: 0;
    left: 0;
-   background-color: rgba(204, 168, 122, 0.75);
+   background-color: rgba(255, 255, 255, 0.75);
  }
 
  .products .lightie:hover .lightieimg:before,
@@ -263,7 +263,7 @@ header a:hover {
    position: absolute;
    top: 0;
    left: 0;
-   background-color: rgba(63, 45, 38, 0.75);
+   background-color: rgba(255, 255, 255, 0.75);
  }
 
  .products .dark:hover .darkimg:before,
@@ -320,7 +320,7 @@ header a:hover {
    position: absolute;
    top: 0;
    left: 0;
-   background-color: rgba(163, 111, 68, 0.75);
+   background-color: rgba(255, 255, 255, 0.75);
  }
 
  .products .caramel:hover .caramelimg:before,
@@ -347,33 +347,40 @@ header a:hover {
  }
 
  #contact {
-   height: 100vh;
+   background-image: url("contactbgd.png");
+   background-position: center;
+   background-repeat: repeat;
+   padding: 5vh 0;
  }
  #contact .get {
    text-align: center;
  }
  #contact h1 {
    margin: 0;
-   padding-top: 7vh;
-   padding-bottom: 3vh;
+   padding-top: 13vh;
+   padding-bottom: 2vh;
    text-align: center;
-   font-size: 3rem;
-   font-weight: 700;
+   font-size: 2.7rem;
+   font-family: 'Raleway', sans-serif;
+   font-weight: 900;
+   color: #2D2D2D;
+   letter-spacing: -0.05rem;
  }
 
  #contact hr{
   text-align: center;
   width: 10vw;
 	border-top: 3px solid #8c8b8b;
-	border-bottom: 3px solid #fff;
+	border-bottom: 1px solid #fff;
 }
 #contact .getintouch {
-  padding: 1.5vw 29vw;
+  padding: 2vh 29vw;
   font-size: .9rem;
+  color: #6e7f80;
 }
 
 #contact .block {
-  margin: 1vh 10vw;
+  margin: 5vh 10vw;
 }
 
 #contact .block .details {
@@ -381,42 +388,103 @@ header a:hover {
   border-radius: 3px;
   width: 30vw;
   margin: 2vh 0;
+  color: #6e7f80;
+  border: none;
 }
 #contact .block #message {
+  color: #6e7f80;
   padding: 10px;
   height: 20vh;
   width: 30vw;
   border-radius: 3px;
   margin: 2vh 0;
+  border: none;
 }
 #contact .block #submit {
-  padding: 7px 10px;
-  width: 7vw;
+  padding: 3.2vh 3vw;
+  text-align: center;
   border-radius: 3px;
-  margin: 1vh 0 0 0;
-  font-size: 1rem;
-  font-weight: 600;
-  background-color: #a36f44;
+  margin: 5vh 0;
+  font-size: 0.7rem;
+  font-weight: 400;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+  background-color: #2D2D2D;
   color: white;
+  border-radius: 4px;
+  border: none;
+  transition: all 200ms linear;
+}
+#contact .block #submit:hover {
+  cursor: pointer;
+  color: #2D2D2D;
+  background: #aa88e0;
+  transform: scale(1.1);
+  font-weight: 600;
 }
 
 #contact .block p {
-  padding-bottom: 10vh;
+  padding-bottom: 7vh;
+  color: #2D2D2D;
 }
 #contact .block #contacth41 {
   font-weight: 400;
+  color: #2D2D2D;
 }
 #contact .block #contactp1 {
   font-size: .9rem;
+  color: #6e7f80;
 }
 
 #footer {
-  height: 45vh;
-  text-align: center;
-  background-color: #a36f44;
+  height: 40vh;
+  background-color: #2D2D2D;
+  padding-top: 10vh;
+  color: #D1C0C0;
+  font-weight: 300;
 }
-  #footer p {
-  padding-top: 38vh;
-  color: white;
+#footer .block {
+  margin: 1vh 10vw;
+}
+#footer .copyright {
+  padding-top: 10vh;
   font-size: 0.8rem;
+  list-style: none;
+}
+  #footer h5 {
+font-weight: 300;
+font-size: 0.8rem;
+margin: 0.7vh 0;
+}
+#footer ul {
+  padding-top: 10vh;
+  margin-top: 0;
+  padding-left: 0;
+}
+#footer li {
+font-size: 0.8rem;
+margin: 1vh 0;
+font-weight: 300;
+list-style: none;
+transition: all 0.6s ease-in-out;
+}
+#footer li:hover {
+  color: white;
+  cursor: pointer;
+}
+#footer img {
+  width: 100%;
+  padding-top: 5vh;
+}
+#footer .social {
+  padding-top: 10vh;
+}
+#footer .social i{
+  font-size: 2.2rem;
+  padding: 0.5vh 1vw;
+  transition: all 0.4s ease-in-out;
+}
+#footer .social i:hover{
+  color: white;
+  cursor: pointer;
 }
