@@ -16,8 +16,12 @@ header {
   z-index: 1;
 }
 
-header h1 {
-  color: #2D2D2D;
+.container-fluid {
+  padding: 0;
+}
+
+header img {
+  height: 9vh;
   text-align: center;
   margin: 20px 0 20px 0;
 }
@@ -473,9 +477,14 @@ transition: all 0.4s ease-in-out;
   border: 2px solid #2D2D2D;
   cursor: pointer;
 }
+#footer img {
+  display: block;
+  height: 15vh;
+  margin: 15px 0 10px 45.5vw;
+}
 #footer .align-center .socmed {
-  padding: 1vh .5vw;
-  font-size: 1.2rem;
+  padding: 1vh .5vw 4vh .5vw;
+  font-size: 1.5rem;
   color: #2D2D2D;
   transition: all 0.6s ease-in-out;
 }
@@ -493,4 +502,91 @@ transition: all 0.4s ease-in-out;
   font-weight: 400;
   color: #6e7f80;
   font-size: 0.8rem;
+}
+
+@media (max-width: 575.98px) {
+  header {
+    height: 26vh;
+  }
+  header img {
+    height: 2rem;
+    margin: 15px 0 7px 29vw;
+  }
+  header nav {
+    float: none;
+    text-align: center;
+    margin-top: 1vh;
+    margin-right: 0;
+  }
+  header a {
+    margin-right: 15px;
+    padding: 3px 5px;
+  }
+  .products {
+    margin-top: 10vh;
+  }
+  .products .mocha {
+    height: 70vh;
+  }
+  .products .caramel {
+    height: 70vh;
+  }
+  .products .lightie {
+    height: 70vh;
+  }
+  .products .dark {
+    height: 70vh;
+  }
+  .products .cocoa {
+    height: 70vh;
+  }
+  .products .empty {
+    height: 70vh;
+  }
+  #contact hr{
+   width: 30vw;
+ }
+ #contact .getintouch {
+   padding: 2vh 10vw;
+   text-align: justify;
+   font-size: 1rem;
+ }
+  #contact .block .details {
+    width: 80vw;
+  }
+  #contact .block #message {
+    height: 50vh;
+    width: 80vw;
+  }
+  #contact .block #submit {
+    padding: 4.9vh 4.3vw;
+    margin: 7.5vh 0;
+    font-size: 0.8rem;
+    letter-spacing: 0.45rem;
+  }
+  #contact .block #contacth41 {
+    padding-top: 5vh;
+    text-align: left;
+  }
+  #contact .block #contactp1 {
+    text-align: justify;
+    font-size: 1rem;
+  }
+  #contact .block #contacth42 {
+    visibility: hidden;
+    font-size: 0.0000001rem;
+    height: 0.0000001rem;
+    margin: 0;
+    padding: 0;
+  }
+  #contact .block #contactp2 {
+    visibility: hidden;
+    font-size: 0.0000001rem;
+    height: 0.0000001rem;
+    padding: 0;
+    margin: 0;
+  }
+  #footer img {
+    margin-left: 42.5vw;
+  }
 }
