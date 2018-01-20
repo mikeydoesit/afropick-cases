@@ -4,8 +4,16 @@ body {
   color: #2D2D2D;
 }
 header {
+  -webkit-box-shadow: inset 0px 0px 40px 9px rgba(219,215,219,0.07);
+  -moz-box-shadow: inset 0px 0px 40px 9px rgba(219,215,219,0.07);
+  box-shadow: inset 0px 0px 40px 9px rgba(219,215,219,0.07);
+  background-color: white;
   border-bottom: solid 1px lightgrey;
   height: 14vh;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
 }
 
 header h1 {
@@ -33,20 +41,31 @@ header a {
   color: #2D2D2D;
   font-size: .9rem;
   font-weight: 600;
-  transition: all 0.4s ease-in-out;
+  transition: all 0.6s ease-in-out;
 }
 
 header a:hover {
   color: #aa88e0;
+  text-decoration: none;
 }
-
+.products {
+  padding-top: 14vh;
+}
+.products .row {
+  margin-left: 0;
+  margin-right: 0;
+}
 .products .empty {
   height: 44vh;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .products .mocha {
   height: 44vh;
   overflow: hidden;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .products .mocha .mochaimg {
@@ -87,7 +106,7 @@ header a:hover {
   display: none;
   text-align: center;
   margin: auto;
-  position: absolute;
+  position: relative;
   font-weight: 600;
   top: 22vh;
   left: 0;
@@ -105,6 +124,8 @@ header a:hover {
 .products .cocoa {
   height: 44vh;
   overflow: hidden;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .products .cocoa .cocoaimg {
@@ -128,7 +149,7 @@ header a:hover {
   display: none;
   height: 100%;
   width: 100%;
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
   background-color: rgba(255, 255, 255, 0.75);
@@ -145,7 +166,7 @@ header a:hover {
   display: none;
   text-align: center;
   margin: auto;
-  position: absolute;
+  position: relative;
   font-weight: 600;
   top: 22vh;
   left: 0;
@@ -162,6 +183,8 @@ header a:hover {
  .products .lightie {
    height: 44vh;
    overflow: hidden;
+   padding-left: 0;
+   padding-right: 0;
  }
 
  .products .lightie .lightieimg {
@@ -185,7 +208,7 @@ header a:hover {
    display: none;
    height: 100%;
    width: 100%;
-   position: absolute;
+   position: relative;
    top: 0;
    left: 0;
    background-color: rgba(255, 255, 255, 0.75);
@@ -202,7 +225,7 @@ header a:hover {
    display: none;
    text-align: center;
    margin: auto;
-   position: absolute;
+   position: relative;
    font-weight: 600;
    top: 22vh;
    left: 0;
@@ -220,6 +243,8 @@ header a:hover {
  .products .dark {
    height: 44vh;
    overflow: hidden;
+   padding-left: 0;
+   padding-right: 0;
  }
 
  .products .dark .darkimg {
@@ -278,6 +303,8 @@ header a:hover {
  .products .caramel {
    height: 44vh;
    overflow: hidden;
+   padding-left: 0;
+   padding-right: 0;
  }
 
  .products .caramel .caramelimg {
