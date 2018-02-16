@@ -21,7 +21,7 @@
         </div>
         <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
           <nav>
-            <a href="#top">Home</a>
+            <a href="index.html">Home</a>
             <a href="#">About</a>
             <a href="#contact">Contact</a>
             <a href="#"><i id="cart" class="fa fa-shopping-cart" aria-hidden="true"></i></a>
@@ -33,34 +33,39 @@
     <section id="products" class="products container-fluid">
       <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 mocha">
-          <div class="mochaimg">
-            <span><em>Mocha</em></span>
-          </div>
+          <a href="mocha.html">
+            <div class="mochaimg">
+            </div>
+          </a>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 cocoa">
-          <div class="cocoaimg">
-            <span><em>Cocoa</em></span>
-          </div>
+          <a href="cocoa.html">
+            <div class="cocoaimg">
+            </div>
+          </a>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 lightie">
-          <div class="lightieimg">
-            <span><em>Light</em></span>
-          </div>
+          <a href="light.html">
+            <div class="lightieimg">
+            </div>
+          </a>
         </div>
       </div>
       <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 dark">
-          <div class="darkimg">
-            <span><em>Dark</em></span>
-          </div>
+          <a href="dark.html">
+            <div class="darkimg">
+            </div>
+          </a>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 empty">
             <iframe width="100%" height="100%" src="https://embed.wix.com/video?instanceId=c8659f19-ff7c-42fb-8919-a8a4177f9f74&biToken=0b4ed056-7e6c-08f6-2e5e-ae96adc47a55&pathToPage=videos&channelId=974dd10d34ef4d1185262ab76796831d&videoId=0091c75a12e649549d6662a55240dca0&compId=comp-iwc4pa69&sitePageId=c1dmp" frameborder="0" allowfullscreen></iframe>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 caramel">
-          <div class="caramelimg">
-            <span><em>Caramel</em></span>
-          </div>
+          <a href="caramel.html">
+            <div class="caramelimg">
+            </div>
+          </a>
         </div>
       </div>
     </section>
@@ -74,16 +79,16 @@
       <div class="block">
         <div class="row">
           <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-            <form class="" action="index.html" method="post">
+            <form class="" action="contactmessage.php" method="post">
               Name<br>
-              <input type="text" name="firstname" class="details">
+              <input type="text" name="name" class="details">
               <br>
               Email<br>
               <input type="text" name="email" class="details">
               <br>
               Message<br>
-              <textarea id="message"></textarea><br>
-              <input type="submit" value="Send" id="submit">
+              <textarea name="message" id="message"></textarea><br>
+              <input name="submit" type="submit" value="Send" id="submit">
             </form>
           </div>
           <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
@@ -96,9 +101,9 @@
 
     <section id="footer" class="container-fluid">
       <div class="align-center">
-        <a href="#products"><i class="fa fa-chevron-up btt" aria-hidden="true"></i></a>
+        <a href="#" id="btt"><i class="fa fa-chevron-up btt" aria-hidden="true"></i></a>
         <img src="css/trunclogo.png" alt="afropick.co.uk">
-        <a target="_blank" href="https://www.tumblr.com/blog/theafropick"><i class="fa fa-tumblr-square socmed" aria-hidden="true"></i></a>
+        <a target="_blank" href="https://theafropick.tumblr.com/"><i class="fa fa-tumblr-square socmed" aria-hidden="true"></i></a>
         <a target="_blank" href="https://www.instagram.com/the_afropick/?hl=en"><i class="fa fa-instagram socmed" aria-hidden="true"></i></a>
         <h5 id="rights">Copyright &copy; 2018 AFROPICK</h5>
       </div>
