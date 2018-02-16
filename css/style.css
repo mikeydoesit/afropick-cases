@@ -459,26 +459,25 @@ transition: all 0.4s ease-in-out;
   color: #6e7f80;
   font-size: 0.8rem;
 }
-
-.product-page {
+#product-page {
   background: #fdfbfb;
 }
 
-.product-page .row {
+#product-page .row {
   margin-left: 0;
   margin-right: 0;
 }
-.product-page .product-carousel {
+#product-page .product-carousel {
   padding-left: 0;
   padding-right: 0;
 }
 
-.product-page .product-carousel img {
+#product-page .product-carousel img {
   width: 100%;
   margin: 10vh auto;
 }
 
-.product-page .product-description h1 {
+#product-page .product-description h1 {
   text-align: center;
   font-family: Raleway;
   font-size: 1.8rem;
@@ -486,7 +485,7 @@ transition: all 0.4s ease-in-out;
   letter-spacing: -0.05rem;
 }
 
-.product-page .product-description h3 {
+#product-page .product-description h3 {
   font-family: Open Sans;
   text-align: center;
   font-size: 1.3rem;
@@ -495,7 +494,7 @@ transition: all 0.4s ease-in-out;
   font-weight: 700;
 }
 
-.product-page .product-description p {
+#product-page .product-description p {
   font-family: Open Sans;
   text-align: justify;
   font-size: 0.9rem;
@@ -504,13 +503,13 @@ transition: all 0.4s ease-in-out;
   margin: 0 auto;
 }
 
-.product-page .product-description {
+#product-page .product-description {
   padding-left: 0;
   padding-right: 0;
   margin: 10vh auto;
 }
 
-.product-page .product-description #atc {
+#product-page .product-description #atc {
   padding: 3.2vh 3vw;
   text-align: center;
   border-radius: 3px;
@@ -526,7 +525,7 @@ transition: all 0.4s ease-in-out;
   border: none;
   transition: all 200ms linear;
 }
-.product-page .product-description #atc:hover {
+#product-page .product-description #atc:hover {
   cursor: pointer;
   color: #2D2D2D;
   background: #aa88e0;
@@ -534,11 +533,11 @@ transition: all 0.4s ease-in-out;
   font-weight: 600;
 }
 
-.product-page .product-description .selector-wrapper {
+#product-page .product-description .selector-wrapper {
   width: 100%;
 }
 
-.product-page .product-description .selector-wrapper select {
+#product-page .product-description .selector-wrapper select {
   border-color: lightgrey;
   border-width: 2px;
   letter-spacing: 0.055rem;
@@ -551,11 +550,11 @@ transition: all 0.4s ease-in-out;
   display: block;
 }
 
-.product-page .product-description .selector-wrapper select:hover {
+#product-page .product-description .selector-wrapper select:hover {
   cursor: pointer;
 }
 
-.product-page .product-description button {
+#product-page .product-description button {
   font-weight: 700;
   font-family: Raleway;
   border-top: 2px solid lightgrey;
@@ -568,20 +567,20 @@ transition: all 0.4s ease-in-out;
   margin: 0 auto;
   padding: .5rem .2rem;
 }
-.product-page .product-description button:focus {
+#product-page .product-description button:focus {
   outline: none;
 }
-.product-page .product-description button:hover {
+#product-page .product-description button:hover {
   cursor: pointer;
 }
 
-.product-page .product-description button span {
+#product-page .product-description button span {
   float: left;
 }
-.product-page .product-description button i {
+#product-page .product-description button i {
   float: right;
 }
-.product-page .product-description #prod-info {
+#product-page .product-description #prod-info {
   letter-spacing: 0.055rem;
   line-height: 1.5rem;
   font-size: .9rem;
@@ -589,7 +588,7 @@ transition: all 0.4s ease-in-out;
   margin: .6rem auto;
   width: 75%;
 }
-.product-page .product-description #delivery {
+#product-page .product-description #delivery {
   letter-spacing: 0.055rem;
   line-height: 1.5rem;
   font-size: .9rem;
